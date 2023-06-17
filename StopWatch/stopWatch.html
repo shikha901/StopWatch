@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla JS Stopwatch - Javascript Stopwatch</title>
+    <!---------------Google Fonts LINK---------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i">
+    <!---------------Font awesome ICON LINK---------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!---------------CSS LINK---------->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <main>
+      <!---------------Timmer Display---------->
+      <div id="timerContainer">
+        <div class="display">
+          <div class="timer" onclick="startTimer()">Start Now!</div>
+        </div>
+        <!---------------Controls Buttons ---------->
+        <div class="controls">
+          <div class="startTimer reset" onclick="startTimer()" >
+            <i class="fas fa-play"></i>
+          </div>
+          <div class="pauseTimer reset" onclick="pauseTimer()" >
+            <i class="fas fa-pause"></i>
+          </div>
+          <div class="resetTimer reset" onclick="resetTimer()">
+            <i class="fas fa-stop"></i>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+    
+    <script type="text/javascript" src="stopWatch.js"></script>
+  </body>
+</html>
